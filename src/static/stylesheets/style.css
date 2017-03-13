@@ -1,16 +1,77 @@
-body {
-  background-color: lightgreen;
+#main-nav{
+  background: lightblue;
+  position:absolute;
+  width:100%;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+input {
+  width: 40rem;
+  display:inline-block;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.btn {
+  background-color: lightblue;
+  height: 1.4rem;
+  width: 8rem;
+  box-sizing: border-box;
+  border-radius: 10%;
+  left: 3rem;
+}
+
+
+ol {
+  position: relative;
+  padding: 1rem;
+  margin: 0 auto;
+  float: left;
+}
+#login {
+  position: absolute;
+  top: 1rem;
+  right:5.7rem;
+}
+
+#login-form {
+  position: absolute;
+  top: 14rem;
+  left: 20rem;
+}
+
+#register {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+#register-form {
+  position: absolute;
+  top: 14rem;
+  left: 20rem;
+}
+
+#signout {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+ul {
+  padding: 20px;
+  margin: 6px;
 }
 
 .title {
-  text-align: center;
-  margin: 2rem;
+  position: relative;
+  top: 2rem;
+  left: 33rem;
 }
 
-.search-bar {
-  text-align: center;
-}
-
-.search-bar input {
-  width: 60%;
+.post-display input {
+  position: relative;
+  left: 18rem;
 }
